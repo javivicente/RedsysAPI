@@ -89,9 +89,6 @@ class RedsysAPI():
     
     #   MAC Function 
     def mac256(self, ent,key):
-        print 'mac256 parameters:'
-        print 'key: %s' % key
-        print 'ent: %s' % ent
         res = hmac.new(key, ent, hashlib.sha256).digest()
         return res
     
