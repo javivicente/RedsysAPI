@@ -4,7 +4,7 @@ import json
 REDSYS_MERCHANT_CODE = 'your_merchant_code_here'
 REDSYS_SECRET_KEY = 'your_secret_code_here'
 
-# State if you are using the test enviroment (True)
+# State if you are using the test environment (True)
 # or the real environment for payments (False)
 SANDBOX = True
 
